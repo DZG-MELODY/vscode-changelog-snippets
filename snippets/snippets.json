@@ -1,0 +1,115 @@
+{
+  "Changelog init for full": {
+    "description": "init changelog for full format",
+    "prefix": "changelog-init-full",
+    "body": [
+      "# Changelog",
+      "${1:",
+      "## [Unreleased]",
+      "",
+      "### Changed",
+      "",
+      "- ${2:TODO}}",
+      "",
+      "## [${3:Version}] - $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      "${4:",
+      "### Added",
+      "",
+      "- ${5:Add item}}",
+      "${6:",
+      "### Changed",
+      "",
+      "- ${7:Change item}}",
+      "${8:",
+      "### Fixed",
+      "",
+      "- ${9:Fixed item}}",
+      "${10:",
+      "### Removed",
+      "",
+      "- ${11:Remove item}}",
+      "${12:",
+      "### Security",
+      "",
+      "- ${13:Security item}}"
+    ]
+  },
+  "Changelog init for simple": {
+    "description": "init changelog for simple format",
+    "prefix": "changelog-init-simple",
+    "body": [
+      "# Changelog",
+      "",
+      "## [${1:Version}] - $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      "${2:",
+      "### Added",
+      "",
+      "- ${3:Add item}}",
+      "${4:",
+      "### Changed",
+      "",
+      "- ${5:Change item}}",
+      "${6:",
+      "### Fixed",
+      "",
+      "- ${7:Fixed item}}",
+      "${8:",
+      "### Removed",
+      "",
+      "- ${9:Remove item}}"
+    ]
+  },
+  "Change log init new version": {
+    "description": "add changelog for new version",
+    "prefix": "changelog-new-version",
+    "body": [
+      "",
+      "## [${1:Version}] - $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      "${2:",
+      "### Added",
+      "",
+      "- ${3:Add item}}",
+      "${4:",
+      "### Changed",
+      "",
+      "- ${5:Change item}}",
+      "${6:",
+      "### Fixed",
+      "",
+      "- ${7:Fixed item}}",
+      "${8:",
+      "### Removed",
+      "",
+      "- ${9:Remove item}}",
+      "${10:",
+      "### Security",
+      "",
+      "- ${11:Security item}}"
+    ]
+  },
+  "Change log added": {
+    "description": "add added-item for a version changelog",
+    "prefix": "changelog-added",
+    "body": ["", "### Added", "", "- ${0:Add item}"]
+  },
+  "Change log changed": {
+    "description": "add changed-item for a version changelog",
+    "prefix": "changelog-changed",
+    "body": ["", "### Changed", "", "- ${0:Change item}"]
+  },
+  "Change log fixed": {
+    "description": "add fixed-item for a version changelog",
+    "prefix": "changelog-fixed",
+    "body": ["", "### Fixed", "", "- ${0:Fixed item}"]
+  },
+  "Change log removed": {
+    "description": "add removed-item for a version changelog",
+    "prefix": "changelog-removed",
+    "body": ["", "### Removed", "", "- ${0:Removed item}"]
+  },
+  "Change log security": {
+    "description": "add security-item for a version changelog",
+    "prefix": "changelog-security",
+    "body": ["", "### Security", "", "- ${0:Security item}"]
+  }
+}

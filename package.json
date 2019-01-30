@@ -1,0 +1,39 @@
+{
+  "name": "vscode-changelog-snippets",
+  "displayName": "changelog-snippets",
+  "version": "0.1.0",
+  "description": "changelog snippets for vscode",
+  "publisher": "dzg_melody",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DZG-MELODY/vscode-changelog-snippets.git"
+  },
+  "keywords": [
+    "vscode",
+    "snippets",
+    "changelog"
+  ],
+  "author": "dzg_melody",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DZG-MELODY/vscode-changelog-snippets/issues"
+  },
+  "homepage": "https://github.com/DZG-MELODY/vscode-changelog-snippets#readme",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "markdown",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  },
+  "engines": {
+    "vscode": "^1.28.2"
+  }
+}
