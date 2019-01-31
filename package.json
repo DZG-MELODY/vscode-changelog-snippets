@@ -1,10 +1,16 @@
 {
   "name": "vscode-changelog-snippets",
   "displayName": "changelog-snippets",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#ffffff",
+    "theme": "light"
+  },
   "description": "changelog snippets for vscode",
-  "publisher": "dzg_melody",
+  "publisher": "dzgmelody",
   "scripts": {
+    "build": "vsce package",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -34,6 +40,6 @@
     ]
   },
   "engines": {
-    "vscode": "^1.28.2"
+    "vscode": "^1.20.0"
   }
 }
